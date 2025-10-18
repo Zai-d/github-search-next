@@ -1,3 +1,5 @@
+![App Landing Page](/docs/GitHub-SPA-Search.png "App Landing Page")
+
 # GitHub Search (Next.js 15 + TypeScript)
 
 A single-page app to search **GitHub Users** and **Repositories**. Built with **Next.js 15 (App Router)**, **TypeScript**, **TanStack Query**, and secure **Route Handlers**. Includes unit tests (Vitest + RTL) and E2E tests (Playwright).
