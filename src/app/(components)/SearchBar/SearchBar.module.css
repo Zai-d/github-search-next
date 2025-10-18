@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.input {
+  flex: 1;
+}
+
+.clear {
+  background: transparent;
+  border: 1px solid #2a334a;
+  color: var(--muted);
+}

@@ -1,0 +1,23 @@
+.wrap {
+  display: inline-flex;
+  background: var(--panel);
+  border: 1px solid #1f2636;
+  border-radius: .6rem;
+  padding: .25rem;
+}
+
+.btn {
+  appearance: none;
+  background: transparent;
+  border: none;
+  color: var(--muted);
+  padding: .4rem .7rem;
+  border-radius: .45rem;
+  cursor: pointer;
+}
+
+.btn[aria-pressed="true"] {
+  background: #1a2240;
+  color: var(--text);
+  border: 1px solid #2b3a6b;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "next-github-search",
+  "private": true,
+  "version": "1.0.0",
+  "description": "GitHub Search SPA with Next.js 15, TypeScript, TanStack Query, and secure API proxy.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run test:unit",
+    "test:unit": "vitest run",
+    "test:e2e": "playwright test",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.51.3",
+    "@vitejs/plugin-react": "^4.7.0",
+    "next": "^15.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/node": "^20.19.22",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitest/coverage-v8": "^2.1.9",
+    "eslint": "^9.11.1",
+    "eslint-config-next": "^15.0.0",
+    "jsdom": "^24.1.0",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.20",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^2.0.5"
+  }
+}

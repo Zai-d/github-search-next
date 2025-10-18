@@ -1,0 +1,8 @@
+.noContentContainer {
+  padding: 2rem;
+  border: 1px dashed #2a334a;
+  border-radius: 0.8rem;
+  color: var(--muted);
+  background: #0f1422;
+  text-align: center;
+}

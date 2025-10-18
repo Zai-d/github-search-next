@@ -1,0 +1,12 @@
+{
+  "total_count": 1,
+  "items": [
+    {
+      "id": 1,
+      "login": "vercel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14985020?v=4",
+      "html_url": "https://github.com/vercel"
+    }
+  ],
+  "hasNextPage": false
+}

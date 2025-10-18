@@ -1,0 +1,75 @@
+:root {
+  --bg: #0b0d12;
+  --panel: #121621;
+  --muted: #8b93a7;
+  --text: #e6e8ef;
+  --accent: #4f8cff;
+  --accent-2: #2b73ff;
+  --error: #ff5c7a;
+  --success: #27c093;
+  --ring: 2px solid #4f8cff;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#__next {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter,
+    "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+  background: #0c111c;
+  color: var(--text);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 0.6rem 0.9rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px #1b3a7a;
+}
+
+input {
+  background: var(--panel);
+  border: 1px solid #1f2636;
+  border-radius: 0.6rem;
+  color: var(--text);
+  padding: 0.6rem 0.8rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background: #1b2233;
+  border: 1px solid #26304a;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 1rem;
+}

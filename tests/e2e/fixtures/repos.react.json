@@ -1,0 +1,18 @@
+{
+  "total_count": 1,
+  "items": [
+    {
+      "id": 10270250,
+      "name": "react",
+      "full_name": "facebook/react",
+      "owner": { "login": "facebook" },
+      "html_url": "https://github.com/facebook/react",
+      "stargazers_count": 220000,
+      "forks_count": 45000,
+      "open_issues_count": 1000,
+      "license": { "spdx_id": "MIT" },
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces."
+    }
+  ],
+  "hasNextPage": false
+}
